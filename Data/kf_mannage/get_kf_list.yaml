@@ -1,0 +1,9 @@
+-
+  caseName: 【获取客服基础信息接口】用例1：参数全部正确
+  method: &method get
+  url: &url /cgi-bin/customservice/getkflist
+  excepted:
+    kf_account_name:
+    - test@test1234
+    - test@test2345
+    statusCode: &statusCode 200
